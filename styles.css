@@ -1,4 +1,4 @@
-/* Base styles */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #d0f594, #9de956);
@@ -9,7 +9,7 @@ body {
   min-height: 100vh;
 }
 
-/* Glass container */
+
 .container {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(12px);
@@ -32,7 +32,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Input and Button */
+
 .input-group {
   display: flex;
   gap: 10px;
@@ -64,7 +64,7 @@ h1 {
   background-color: #00f2fe;
 }
 
-/* Task List */
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -92,7 +92,7 @@ li span {
   flex: 1;
 }
 
-/* Completed Task */
+
 .completed {
   position: relative;
   color: gray;
@@ -118,7 +118,6 @@ li span {
   }
 }
 
-/* Delete Button */
 li button {
   background-color: #ff4d4f;
   border: none;
